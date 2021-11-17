@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+ul {
+  list-style-type: none; }
+
+nav {
+  background-color: #273c75; }
+
+#main-menu {
+  display: flex; }
+
+nav #main-menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 8px 15px; }
+
+nav #main-menu li:hover a {
+  background: #c23616;
+  transition: all 0.3s; }
+
+#toggle {
+  display: none;
+  background: #353b48;
+  color: #fff;
+  text-align: right;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer; }
+
+@media screen and (max-width: 768px) {
+  #main-menu {
+    flex-direction: column;
+    text-align: center; }
+
+  #toggle {
+    display: block; }
+
+  nav {
+    display: none; } }
+
+/*# sourceMappingURL=menu.css.map */
