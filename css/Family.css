@@ -1,0 +1,112 @@
+.team8 {
+  background: #afd4e7;
+  padding: auto; }
+  .team8 .header .container-fluid .row .img {
+    margin-top: 10px; }
+    .team8 .header .container-fluid .row .img img {
+      width: 50%;
+      height: 40%;
+      margin-left: 25%; }
+  .team8 .header .container-fluid .row .title {
+    margin-top: 10px; }
+    .team8 .header .container-fluid .row .title p {
+      letter-spacing: 15px;
+      color: #517ead;
+      font-size: 20px; }
+  .team8 .header .container-fluid .row .title1 {
+    color: #517ead; }
+    .team8 .header .container-fluid .row .title1 #wrapper #header #toggle {
+      display: none;
+      color: #fff;
+      text-align: right;
+      padding: 10px;
+      font-size: 20px;
+      cursor: pointer; }
+    .team8 .header .container-fluid .row .title1 #wrapper #header ul {
+      list-style-type: none; }
+    .team8 .header .container-fluid .row .title1 #wrapper #header nav #main-menu li a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      padding: 8px 15px; }
+    @media screen and (max-width: 768px) {
+      .team8 .header .container-fluid .row .title1 #wrapper #header #main-menu {
+        flex-direction: column;
+        text-align: center; }
+      .team8 .header .container-fluid .row .title1 #wrapper #header #toggle {
+        display: block; }
+      .team8 .header .container-fluid .row .title1 #wrapper #header nav {
+        display: none; } }
+    .team8 .header .container-fluid .row .title1 #wrapper #header #main-menu {
+      margin-top: 10px;
+      color: #517ead; }
+      .team8 .header .container-fluid .row .title1 #wrapper #header #main-menu .dropdown {
+        float: left;
+        margin-right: 30px;
+        position: relative; }
+        .team8 .header .container-fluid .row .title1 #wrapper #header #main-menu .dropdown a {
+          text-decoration: none;
+          color: #517ead; }
+        .team8 .header .container-fluid .row .title1 #wrapper #header #main-menu .dropdown .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          z-index: 1; }
+          .team8 .header .container-fluid .row .title1 #wrapper #header #main-menu .dropdown .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block; }
+          .team8 .header .container-fluid .row .title1 #wrapper #header #main-menu .dropdown .dropdown-content a:hover {
+            background-color: #f1f1f1; }
+      .team8 .header .container-fluid .row .title1 #wrapper #header #main-menu .dropdown:hover .dropdown-content {
+        display: block; }
+  .team8 .Group1 p {
+    margin-left: 2%;
+    font-size: 120%; }
+  .team8 .Group2 .container-fluid .row .title {
+    color: #000; }
+    .team8 .Group2 .container-fluid .row .title .title1 {
+      background: #ffffff;
+      margin-bottom: 10%; }
+      .team8 .Group2 .container-fluid .row .title .title1 img {
+        width: 100%;
+        height: 50%; }
+      .team8 .Group2 .container-fluid .row .title .title1 h4 {
+        margin-top: 10%;
+        color: #007ACC; }
+      .team8 .Group2 .container-fluid .row .title .title1 input {
+        width: 5%;
+        height: 3%; }
+  .team8 .Group2 .container-fluid .group4 {
+    background: #1d4b7a; }
+    .team8 .Group2 .container-fluid .group4 .container-fluid .row {
+      color: #ffffff;
+      margin-top: 50px; }
+      .team8 .Group2 .container-fluid .group4 .container-fluid .row .title1 p {
+        letter-spacing: 11px; }
+      .team8 .Group2 .container-fluid .group4 .container-fluid .row .title2 input {
+        width: 200px;
+        margin-right: 20px;
+        border: solid #ffffff;
+        background: #1d4b8a;
+        color: #ffffff; }
+      .team8 .Group2 .container-fluid .group4 .container-fluid .row .title2 input-placeholder {
+        color: #ffffff; }
+      .team8 .Group2 .container-fluid .group4 .container-fluid .row .title2 a {
+        text-align: center;
+        width: 130px;
+        height: 30px;
+        text-decoration: none;
+        background: #FFFFFF;
+        border-bottom-left-radius: 70px;
+        border-top-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+        border-top-right-radius: 70px; }
+  .team8 .Group2 .container-fluid .group5 {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+/*# sourceMappingURL=Family.css.map */
