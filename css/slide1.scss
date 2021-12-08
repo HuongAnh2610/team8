@@ -1,0 +1,48 @@
+#wrapper{
+  background: url('../images/group1.jpg') no-repeat;
+  background-size: 100% 100%;
+  #header{
+    #toggle {
+      display: none;
+      background: #353b48;
+      color: #fff;
+      text-align: right;
+      padding: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    #main-menu{
+      margin-top:10px;
+      color:#517ead;
+      .dropdown {
+        float:left;
+        margin-right:30px;
+        position: relative;
+        a{
+          text-decoration:none;
+          color:#517ead;
+        }
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+          a{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+          a:hover {
+            background-color: #f1f1f1;
+          }
+        }
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    }
+  }
+}
